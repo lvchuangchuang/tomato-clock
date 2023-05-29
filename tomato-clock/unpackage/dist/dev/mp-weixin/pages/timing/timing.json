@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "计时",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#fc9d9a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
+}

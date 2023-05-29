@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "番茄时钟",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fc9d9a",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/timing/timing",
+			"style": {
+				"navigationBarTitleText": "计时",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#fc9d9a",
+				"navigationBarTextStyle": "white",
+				"navigationBarShadow": {
+					"colorType": "#eee"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#eee",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#B50E03",
+		"color": "#333",
+		"list": [
+			{
+				"text": "计时",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tongji2.png",
+				"selectedIconPath": "static/images/tongji.png"
+			},
+			{
+				"text": "统计",
+				"pagePath": "pages/timing/timing",
+				"iconPath": "static/images/jishi2.png",
+				"selectedIconPath": "./static/images/jishi.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

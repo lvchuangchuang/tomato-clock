@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "番茄时钟",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#fc9d9a",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
+}

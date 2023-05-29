@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/timing/timing"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#eee",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#B50E03",
+    "color": "#333",
+    "list": [
+      {
+        "text": "计时",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tongji2.png",
+        "selectedIconPath": "static/images/tongji.png"
+      },
+      {
+        "text": "统计",
+        "pagePath": "pages/timing/timing",
+        "iconPath": "static/images/jishi2.png",
+        "selectedIconPath": "./static/images/jishi.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
